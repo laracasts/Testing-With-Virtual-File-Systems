@@ -1,0 +1,11 @@
+{
+    "require-dev": {
+        "mikey179/vfsStream": "dev-master",
+        "phpspec/phpspec": "2.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/Acme"
+        }
+    }
+}
