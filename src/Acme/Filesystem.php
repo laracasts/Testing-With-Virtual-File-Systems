@@ -16,7 +16,12 @@ class Filesystem {
     /**
      * @param null $root
      */
-    function __construct($root)
+    public function __construct($root)
+    {
+        $this->setRoot($root);
+    }
+
+    public function setRoot($root)
     {
         $this->root = $root;
     }

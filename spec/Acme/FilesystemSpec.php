@@ -8,7 +8,7 @@ use org\bovigo\vfs\VfsStream;
 use org\bovigo\vfs\VfsStreamWrapper;
 
 class FilesystemSpec extends ObjectBehavior {
-    
+
     function let()
     {
         VfsStream::setup('root_dir', null, [
