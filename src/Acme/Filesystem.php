@@ -21,6 +21,11 @@ class Filesystem {
         $this->setRoot($root);
     }
 
+    /**
+     * Set the root directory
+     * 
+     * @param $root
+     */
     public function setRoot($root)
     {
         $this->root = $root;
